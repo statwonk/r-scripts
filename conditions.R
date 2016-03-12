@@ -1,3 +1,5 @@
+# Source: http://adv-r.had.co.nz/Exceptions-Debugging.html#condition-handling
+
 condition <- function(subclass, message,
                       call = sys.call(-2), # -2 ?? -3 seems to produce a clearer error
                       ...) {
